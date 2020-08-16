@@ -18,118 +18,143 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
+                    android:layout_height="153dp"
+                    android:background="@drawable/bg_bottom_left_curved_corner">
+                <com.github.florent37.shapeofview.shapes.RoundRectView
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:background="@drawable/bg_drawable_holo_orange" >
+                    app:shape_roundRect_bottomLeftRadius="50dp"
+                    app:shape_roundRect_bottomRightRadius="0dp"
+                    app:shape_roundRect_topLeftRadius="0dp"
+                    app:shape_roundRect_topRightRadius="0dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/one"
+                        android:scaleType="centerCrop"/>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:paddingStart="40dp"
-                        android:paddingEnd="0dp"
-                        android:paddingTop="70dp"
                         android:orientation="vertical">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/title"
-                            android:textSize="25sp"
-                            android:textColor="@android:color/white"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:text="@string/subtitle"
-                            android:textSize="20sp"
-                            android:textColor="@android:color/white"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="45dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@android:color/white"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/subtitle"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@android:color/white"/>
                     </LinearLayout>
 
+                </com.github.florent37.shapeofview.shapes.RoundRectView>
                 </RelativeLayout>
+
+
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="203dp"
                     android:layout_marginTop="100dp"
-                    android:background="@drawable/bg_drawable_accent_color" >
-                    <LinearLayout
+                    android:background="@drawable/bg_bottom_left_curved_corner">
+                    <com.github.florent37.shapeofview.shapes.RoundRectView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:paddingStart="40dp"
-                        android:paddingEnd="0dp"
-                        android:paddingTop="70dp"
-                        android:orientation="vertical">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/title"
-                            android:textSize="25sp"
-                            android:textColor="@android:color/white"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:text="@string/subtitle"
-                            android:textSize="20sp"
-                            android:textColor="@android:color/white"/>
-                    </LinearLayout>
+                        android:layout_height="200dp"
+                        app:shape_roundRect_bottomLeftRadius="50dp"
+                        app:shape_roundRect_bottomRightRadius="0dp"
+                        app:shape_roundRect_topLeftRadius="0dp"
+                        app:shape_roundRect_topRightRadius="0dp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/two"
+                            android:scaleType="centerCrop"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/title"
+                                android:textSize="30sp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="95dp"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@android:color/white"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/subtitle"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@android:color/white"/>
+                        </LinearLayout>
+
+                    </com.github.florent37.shapeofview.shapes.RoundRectView>
                 </RelativeLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:layout_marginTop="200dp"
-                    android:background="@drawable/bg_drawable_primary" >
-                    <LinearLayout
+                    android:layout_height="203dp"
+                    android:layout_marginTop="250dp"
+                    android:background="@drawable/bg_bottom_left_curved_corner">
+                    <com.github.florent37.shapeofview.shapes.RoundRectView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:paddingStart="40dp"
-                        android:paddingEnd="0dp"
-                        android:paddingTop="70dp"
-                        android:orientation="vertical">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/title"
-                            android:textSize="25sp"
-                            android:textColor="@android:color/white"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:text="@string/subtitle"
-                            android:textSize="20sp"
-                            android:textColor="@android:color/white"/>
-                    </LinearLayout>
+                        android:layout_height="200dp"
+                        app:shape_roundRect_bottomLeftRadius="50dp"
+                        app:shape_roundRect_bottomRightRadius="0dp"
+                        app:shape_roundRect_topLeftRadius="0dp"
+                        app:shape_roundRect_topRightRadius="0dp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/three"
+                            android:scaleType="centerCrop"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/title"
+                                android:textSize="30sp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="95dp"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@android:color/white"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/subtitle"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@android:color/white"/>
+                        </LinearLayout>
+
+                    </com.github.florent37.shapeofview.shapes.RoundRectView>
                 </RelativeLayout>
 
             </com.example.andreeaproblem.ReverseDrawingOrderLayout>
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.534" />
-
-<!--    <FrameLayout-->
-<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        >-->
-<!--        <ImageView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="100dp"-->
-<!--            android:src="@drawable/bg_drawable_primary"-->
-<!--            android:scaleType="fitCenter"-->
-<!--            />-->
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_gravity="bottom|center"-->
-<!--            android:padding="5dp"-->
-<!--            android:text="My Label"-->
-<!--            />-->
-<!--    </FrameLayout>-->
 
 </RelativeLayout>
